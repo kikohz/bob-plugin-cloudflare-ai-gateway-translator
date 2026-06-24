@@ -1,0 +1,26 @@
+{
+  "identifier": "com.freshdash.bob.cloudflare-ai-gateway-translator",
+  "versions": [
+    {
+      "version": "1.0.2",
+      "desc": "Workers AI 模型可省略 workers-ai/ 前缀（自动补全）；默认模型改为 @cf/qwen/qwen3-30b-a3b-fp8，并对推理模型自动 /no_think 及过滤思考内容。",
+      "sha256": "",
+      "url": "https://github.com/kikohz/bob-plugin-cloudflare-ai-gateway-translator/releases/download/v1.0.2/cloudflare-ai-gateway-translator.bobplugin",
+      "minBobVersion": "1.8.0"
+    },
+    {
+      "version": "1.0.1",
+      "desc": "修正统一端点 provider 前缀（Workers AI 需带 workers-ai/ 前缀），更新默认模型与图标。",
+      "sha256": "",
+      "url": "https://github.com/kikohz/bob-plugin-cloudflare-ai-gateway-translator/releases/download/v1.0.1/cloudflare-ai-gateway-translator.bobplugin",
+      "minBobVersion": "1.8.0"
+    },
+    {
+      "version": "1.0.0",
+      "desc": "首个版本：通过 Cloudflare AI Gateway 实现翻译、润色与语法纠错，支持流式输出。",
+      "sha256": "",
+      "url": "https://github.com/kikohz/bob-plugin-cloudflare-ai-gateway-translator/releases/download/v1.0.0/cloudflare-ai-gateway-translator.bobplugin",
+      "minBobVersion": "1.8.0"
+    }
+  ]
+}
