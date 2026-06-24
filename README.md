@@ -1,6 +1,14 @@
 # Cloudflare AI Gateway 翻译 · Bob 插件
 
+[![一键下载安装](https://img.shields.io/badge/⬇_一键下载安装-bobplugin-F38020?style=for-the-badge)](https://github.com/kikohz/bob-plugin-cloudflare-ai-gateway-translator/releases/latest/download/cloudflare-ai-gateway-translator.bobplugin)
+
+[![release](https://img.shields.io/github/v/release/kikohz/bob-plugin-cloudflare-ai-gateway-translator?color=F38020)](https://github.com/kikohz/bob-plugin-cloudflare-ai-gateway-translator/releases/latest)
+[![downloads](https://img.shields.io/github/downloads/kikohz/bob-plugin-cloudflare-ai-gateway-translator/total?color=F38020)](https://github.com/kikohz/bob-plugin-cloudflare-ai-gateway-translator/releases)
+[![license](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0-lightgrey)](./LICENSE)
+
 通过 [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/) 的 OpenAI 兼容统一端点（`/compat/chat/completions`），用一套配置调用 OpenAI、Anthropic、Google、Workers AI 等多家大模型，在 [Bob](https://bobtranslate.com/) 中实现**翻译 + 润色 + 语法纠错**，支持流式输出。
+
+> 📥 **一键安装**：点上方橙色按钮下载最新 `.bobplugin`，双击即可安装到 Bob（需 Bob ≥ 1.8.0）。该链接始终指向最新 Release。
 
 参考自 [bob-plugin-openai-translator](https://github.com/openai-translator/bob-plugin-openai-translator)。
 
