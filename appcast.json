@@ -4,7 +4,7 @@
     {
       "version": "1.0.2",
       "desc": "Workers AI 模型可省略 workers-ai/ 前缀（自动补全）；默认模型改为 @cf/qwen/qwen3-30b-a3b-fp8，并对推理模型自动 /no_think 及过滤思考内容。",
-      "sha256": "",
+      "sha256": "1aedb2e8e44b8640eb92eef93e95b9d1495f0890446776614af5e55e3c8839c9",
       "url": "https://github.com/kikohz/bob-plugin-cloudflare-ai-gateway-translator/releases/download/v1.0.2/cloudflare-ai-gateway-translator.bobplugin",
       "minBobVersion": "1.8.0"
     },
